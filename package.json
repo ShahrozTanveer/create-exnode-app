@@ -1,10 +1,9 @@
 {
-  "name": "@sharoztanveer/create-exnode-app",
-  "version": "1.0.3",
+  "name": "create-exnode-app",
+  "version": "1.0.0",
   "description": "Set up a Express(Javascript or Typescript) app by running one command.",
   "main": "src/index.js",
   "bin": {
-    "@sharoztanveer/create-exnode-app": "create-exnode-app",
     "create-exnode-app": "bin/create-exnode-app"
   },
   "publishConfig": {
