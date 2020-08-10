@@ -24,6 +24,10 @@
     "nodejs",
     "node ts"
   ],
+  "bugs": {
+    "url": "https://github.com/ShahrozTanveer/create-exnode-app/issues"
+  },
+  "homepage": "https://github.com/ShahrozTanveer/create-exnode-app#readme",
   "author": "sharoztanveer",
   "license": "MIT",
   "dependencies": {
