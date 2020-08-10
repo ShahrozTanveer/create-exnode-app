@@ -2,6 +2,12 @@
 * Set up a Express(Javascript or Typescript) app by running one command.
 ## Quick Overview
 ```sh
-npx create-exnode-app
+npm init @sharoztanveer/create-exnode-app
+# or
+npx @sharoztanveer/create-exnode-app
+# or
+npm install -g @sharoztanveer/create-exnode-app
+create-exnode-app
+
 npm start
 ```
