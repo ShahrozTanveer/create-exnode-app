@@ -1,0 +1,39 @@
+{
+  "name": "@sharoztanveer/create-exnode-app",
+  "version": "1.0.0",
+  "description": "Set up a Express(Javascript or Typescript) app by running one command.",
+  "main": "src/index.js",
+  "bin": {
+    "@sharoztanveer/create-exnode-app": "create-exnode-app",
+    "create-exnode-app": "bin/create-exnode-app"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahrozTanveer/create-exnode-app.git"
+  },
+  "keywords": [
+    "cli",
+    "create-exnode-app",
+    "express app",
+    "nodejs",
+    "node ts"
+  ],
+  "author": "sharoztanveer",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "execa": "^4.0.3",
+    "inquirer": "^7.3.3",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
