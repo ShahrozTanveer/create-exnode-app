@@ -1,6 +1,6 @@
 {
   "name": "@sharoztanveer/create-exnode-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Set up a Express(Javascript or Typescript) app by running one command.",
   "main": "src/index.js",
   "bin": {
