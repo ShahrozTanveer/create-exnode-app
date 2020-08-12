@@ -33,3 +33,8 @@ npm start
 
 Copyright © 2020, [Sharoz Tanveer](https://github.com/ShahrozTanveer).
 Released under the [MIT License](LICENSE).
+
+---
+Contributions are welcomed! :octocat: :heart:
+
+Made with :heart: in Javascript
