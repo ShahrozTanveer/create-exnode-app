@@ -4,6 +4,19 @@ Please consider following this project's author, [Sharoz Tanveer](https://github
 
 - Set up a Express(Javascript or Typescript) app by running one command.
 
+## Quick start
+
+```sh
+npx create-exnode-app
+npm start
+
+# or
+npm install -g create-exnode-app
+create-exnode-app
+
+npm start
+```
+
 ### Author
 
 **Sharoz Tanveer**

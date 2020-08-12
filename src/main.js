@@ -72,5 +72,11 @@ export async function createProject(options) {
   await tasks.run();
 
   console.log("%s Project ready", chalk.green.bold("DONE"));
+  console.log("Run: %s", chalk.green.bold("npm start"));
+  console.log("Runs the app in the development mode.");
+  console.log("Open http://localhost:5000 to view it in the browser.");
+
+  console.log("%s ", chalk.green.bold("Happy Coding"));
+
   return true;
 }

@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 5000;
   app.use(cookieParser());
   app.use("/", require("./routes/index"));
   app.listen(PORT, () => {
-    console.log(`Started Server at ${PORT} `);
+    console.log(`Started Server at ${PORT}`);
+    console.log(`Open http://localhost:5000 to view it in the browser. `);
   });
 })();
