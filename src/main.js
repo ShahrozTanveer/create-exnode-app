@@ -23,10 +23,27 @@ async function initGit(options) {
   }
   return;
 }
+//TODO create DIR
+async function createDir(options) {
+  //TODO add name in options
+  const dir = options.name; //not added yet
+  if (!fs.existsSync(dir)) {
+    const pwd = await process.cwd();
+    console.log(pwd);
+    await fs.mkdirSync(dir);
+    await process.chdir(`${pwd}/${dir}`);
+    console.log(await process.cwd());
+  } else {
+    console.log("directory alreay exist");
+  }
+}
+//TODO create package.json
+async function createPkg(options) {}
 export async function createProject(options) {
+  const pwd = await process.cwd();
   options = {
     ...options,
-    targetDirectory: options.targetDirectory || process.cwd(),
+    targetDirectory: options.targetDirectory || pwd,
   };
 
   const currentFileUrl = import.meta.url;
