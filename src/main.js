@@ -73,9 +73,14 @@ export async function createProject(options) {
 
   console.log("%s Project ready", chalk.green.bold("DONE"));
   console.log("Run: %s", chalk.green.bold("npm start"));
-  console.log("Runs the app in the development mode.");
+  console.log("Runs the app in the Production mode.");
   console.log("Open http://localhost:5000 to view it in the browser.");
-
+  console.log("Run: %s", chalk.green.bold("npm run dev"));
+  console.log("Runs the app in development mode.");
+  console.log("Open http://localhost:5000 to view it in the browser.");
+  console.log(
+    "The Server will automatically restart if you make changes to the code."
+  );
   console.log("%s ", chalk.green.bold("Happy Coding"));
 
   return true;
