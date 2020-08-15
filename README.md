@@ -10,12 +10,13 @@ Create Express apps with no build configuration.
 
 ```sh
 npx create-exnode-app
+cd myapp
 npm start
 
 # or
 npm install -g create-exnode-app
 create-exnode-app
-
+cd myapp
 npm start
 ```
 

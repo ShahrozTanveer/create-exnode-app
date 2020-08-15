@@ -32,6 +32,12 @@ async function promptForMissingOptions(options) {
   }
 
   const questions = [];
+  questions.push({
+    type: "input",
+    name: "pkgName",
+    message: "Project Name: ",
+    default: "myapp",
+  });
   if (!options.template) {
     questions.push({
       type: "list",
@@ -56,6 +62,7 @@ async function promptForMissingOptions(options) {
     ...options,
     template: options.template || answers.template,
     git: options.git || answers.git,
+    name: answers.pkgName,
   };
 }
 export async function cli(args) {

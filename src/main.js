@@ -29,10 +29,10 @@ async function createDir(options) {
   const dir = options.name; //not added yet
   if (!fs.existsSync(dir)) {
     const pwd = await process.cwd();
-    console.log(pwd);
+    // console.log(pwd);
     await fs.mkdirSync(dir);
     await process.chdir(`${pwd}/${dir}`);
-    console.log(await process.cwd());
+    // console.log(await process.cwd());
   } else {
     console.log("directory alreay exist");
   }
@@ -40,6 +40,7 @@ async function createDir(options) {
 //TODO create package.json
 async function createPkg(options) {}
 export async function createProject(options) {
+  await createDir(options);
   const pwd = await process.cwd();
   options = {
     ...options,
